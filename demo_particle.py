@@ -21,7 +21,7 @@ ROBOT_HAS_COMPASS = False # Does the robot know where north is? If so, it
 
 
 
-world = Maze(0)
+world = Maze(scaling=40)
 
 
 # initial distribution assigns each particle an equal probability

@@ -9,7 +9,7 @@ def int_(a):
 
 # Maze is 20x16
 class Maze(object):
-    def __init__(self, maze, scaling=120):
+    def __init__(self, scaling=40):
         self.maze=((2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2),
                 (2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2),
                 (2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2),
